@@ -224,6 +224,9 @@
                                     "type":"ordered",
                                     "details":[
                                             {
+                                            "details":"Deploy the <span class='application'>AggregationHTTPAsyncLib</span> Shared Library, by dragging and dropping it on to the default integration server."
+                                            },
+                                            {
                                             "details":"Deploy the <span class='application'>AggregationHTTPBackend1</span> Application, by dragging and dropping it on to the default integration server."
                                             },
                                             {
