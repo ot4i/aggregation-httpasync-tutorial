@@ -253,23 +253,31 @@
                                                         "details": "Note that the input XML message has string values in lower case:"
                                                     },
                                                     {
-                                                        "details": "<span class='resource'>
-&lt;Message&gt;
-&lt;Backend1&gt;&lt;FieldA&gt;hello&lt;/FieldA&gt;&lt;FieldB&gt;world&lt;/FieldB&gt;&lt;FieldC&gt;backend1&lt;/FieldC>&lt;/Backend1&gt;
-&lt;Backend2&gt;&lt;FieldA&gt;greetings&lt;/FieldA&gt;&lt;FieldB&gt;globe&lt;/FieldB&gt;&lt;FieldC&gt;backend2&lt;/FieldC>&lt;/Backend2&gt;
-&lt;/Message&gt;
-</span>"
+                                                        "details": "<code><b>&lt;Message&gt</b></code>"
+				                                    },
+                                                    {
+                                                        "details": "<code><b>&lt;Backend1&gt;&lt;FieldA&gt;hello&lt;/FieldA&gt;&lt;FieldB&gt;world&lt;/FieldB&gt;&lt;FieldC&gt;backend1&lt;/FieldC&gt;&lt;/Backend1&gt;</b></code>"
+				                                    },
+                                                    {
+                                                        "details": "<code><b>&lt;Backend2&gt;&lt;FieldA&gt;greetings&lt;/FieldA&gt;&lt;FieldB&gt;globe&lt;/FieldB&gt;&lt;FieldC&gt;backend2&lt;/FieldC&gt;&lt;/Backend2&gt;&lt;/Message&gt;</b></code>"
+				                                    },
+                                                    {
+                                                        "details": "<code><b>&lt;/Message&gt;</b></code>"
 				                                    },
 				                                    {
                                                         "details": "The Flow Exerciser should report that an HTTP Reply message has been received. Note that this response message has string values in upper case which has occurred as a result of the aggregation's invocation of the backend services:"
 				                                    },
                                                     {
-                                                        "details": "<span class='resource'>
-&lt;Message&gt;
-&lt;Backend1&gt;&lt;FieldA&gt;HELLO&lt;/FieldA&gt;&lt;FieldB&gt;WORLD&lt;/FieldB&gt;&lt;FieldC&gt;BACKEND1&lt;/FieldC>&lt;/Backend1&gt;
-&lt;Backend2&gt;&lt;FieldA&gt;GREETINGS&lt;/FieldA&gt;&lt;FieldB&gt;GLOBE&lt;/FieldB&gt;&lt;FieldC&gt;BACKEND2&lt;/FieldC>&lt;/Backend2&gt;
-&lt;/Message&gt;
-</span>"
+                                                        "details": "<code><b>&lt;Message&gt;</b></code>"
+				                                    },
+                                                    {
+                                                        "details": "<code><b>&lt;Backend1&gt;&lt;FieldA&gt;HELLO&lt;/FieldA&gt;&lt;FieldB&gt;WORLD&lt;/FieldB&gt;&lt;FieldC&gt;BACKEND1&lt;/FieldC&gt;&lt;/Backend1&gt;</b></code>"
+				                                    },
+                                                    {
+                                                        "details": "<code><b>&lt;Backend2&gt;&lt;FieldA&gt;GREETINGS&lt;/FieldA&gt;&lt;FieldB&gt;GLOBE&lt;/FieldB&gt;&lt;FieldC&gt;BACKEND2&lt;/FieldC&gt;&lt;/Backend2&gt</b></code>"
+				                                    },
+                                                    {
+                                                        "details": "<code><b>&lt;/Message&gt;</b></code>"
 				                                    }
                                                 ]
                                             }
