@@ -253,7 +253,7 @@
                                                         "details": "Note that the input XML message has string values in lower case:"
                                                     },
                                                     {
-                                                        "details": "<code><b>&lt;Message&gt</b></code>"
+                                                        "details": "<code><b>&lt;Message&gt;</b></code>"
 				                                    },
                                                     {
                                                         "details": "<code><b>&lt;Backend1&gt;&lt;FieldA&gt;hello&lt;/FieldA&gt;&lt;FieldB&gt;world&lt;/FieldB&gt;&lt;FieldC&gt;backend1&lt;/FieldC&gt;&lt;/Backend1&gt;</b></code>"
@@ -274,7 +274,7 @@
                                                         "details": "<code><b>&lt;Backend1&gt;&lt;FieldA&gt;HELLO&lt;/FieldA&gt;&lt;FieldB&gt;WORLD&lt;/FieldB&gt;&lt;FieldC&gt;BACKEND1&lt;/FieldC&gt;&lt;/Backend1&gt;</b></code>"
 				                                    },
                                                     {
-                                                        "details": "<code><b>&lt;Backend2&gt;&lt;FieldA&gt;GREETINGS&lt;/FieldA&gt;&lt;FieldB&gt;GLOBE&lt;/FieldB&gt;&lt;FieldC&gt;BACKEND2&lt;/FieldC&gt;&lt;/Backend2&gt</b></code>"
+                                                        "details": "<code><b>&lt;Backend2&gt;&lt;FieldA&gt;GREETINGS&lt;/FieldA&gt;&lt;FieldB&gt;GLOBE&lt;/FieldB&gt;&lt;FieldC&gt;BACKEND2&lt;/FieldC&gt;&lt;/Backend2&gt;</b></code>"
 				                                    },
                                                     {
                                                         "details": "<code><b>&lt;/Message&gt;</b></code>"
